@@ -35,14 +35,7 @@
         <artifactId>jdk8</artifactId>
         <version>1.9.4</version>
     </dependency>
-  </dependencies>
-	<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>c1390c35ecce-releases</name>
-        <url>http://54.91.119.20:8081/artifactory/libs-release</url>
-    </repository>
-</distributionManagement>
+  </dependencies>	
   <build>
     <plugins>
       <plugin>
@@ -114,4 +107,11 @@
       </plugin>
     </plugins>
   </build>
+<distributionManagement>
+<repository>
+<id>central</id>
+<name>c1390c35ecce-releases</name>
+<url>http://54.91.119.20:8081/artifactory/libs-release</url>
+</repository>
+</distributionManagement>
 </project>
